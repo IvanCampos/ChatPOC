@@ -9,7 +9,7 @@ functions = [
     },
     {
         "name": "related_subreddits",
-        "description": "List of the top subreddits from reddit.com based on the topic provided.",
+        "description": "List of the top subreddits from reddit based on the topic provided.",
         "parameters": Schemas().reddit_schema
     },
 ]
