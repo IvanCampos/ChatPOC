@@ -1,5 +1,5 @@
 """Functions for OpenAI ChatCompletion"""
-from openai_schemas import Schemas
+from schemas import Schemas
 
 functions = [
     {

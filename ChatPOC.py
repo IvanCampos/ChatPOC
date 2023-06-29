@@ -3,7 +3,7 @@ import os
 from dotenv import load_dotenv
 import openai
 import streamlit as st
-from openai_functions import Functions
+from functions import Functions
 from ui_helper import UIHelper
 
 # Load OpenAI API key from your .env file
@@ -74,4 +74,3 @@ if prompt := st.chat_input("Ask a question"):
             else:
                 message_placeholder.markdown(full_response)    
     st.session_state.messages.append({"role": "assistant", "content": full_response}) 
-    
