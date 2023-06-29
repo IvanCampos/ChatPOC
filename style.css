@@ -1,0 +1,11 @@
+h1 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+p, input {
+    font-family: 'Georgia', serif;
+}
+
+.block-container {
+    padding-top: 1rem;
+}
