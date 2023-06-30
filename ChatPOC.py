@@ -20,7 +20,8 @@ if st.sidebar.button("Clear Chat", key="clear_chat"):
     st.session_state.messages = []
 st.sidebar.title("Instructions")
 st.sidebar.markdown("1. create a .env file with your OPENAI_API_KEY")
-st.sidebar.markdown("2. in your terminal, run:\n streamlit run ChatPOC.py")
+st.sidebar.markdown("2. install dependencies:\n pip install -r requirements.txt")
+st.sidebar.markdown("3. in your terminal, run:\n streamlit run ChatPOC.py")
 
 # Main content
 st.title("ChatPOC")
